@@ -1,0 +1,25 @@
+# Python / Flask
+__pycache__/
+*.pyc
+instance/
+.env
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# OS and editor stuff
+.DS_Store
+*.log
+
+# Byte-compiled files
+*.pyo
+*.pyd
+
+# VS Code settings (if you use it)
+.vscode/
+
+# Flask cache
+*.db
