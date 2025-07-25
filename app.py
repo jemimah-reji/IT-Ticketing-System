@@ -61,10 +61,8 @@ def create_ticket():
         tickets.append(ticket)
         save_tickets(tickets)
 
-        # 👇 This is the fix: redirect somewhere instead of reloading the form
         return redirect(url_for("index"))
 
-    # 👇 Only GET request renders the form
     return render_template("create_ticket.html")
 
 @app.route("/admin", methods=["GET", "POST"])
